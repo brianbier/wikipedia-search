@@ -47,10 +47,8 @@ var search = (function(){
 
   function init(){
     $('form').on('submit', search);
-    // searchRequest('Barack Obama');
   }
   
-
   return {
     init: init
   };

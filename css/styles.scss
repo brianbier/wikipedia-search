@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Rokkitt:700);
+body{
+  background-color: #fff;
+  font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+main{
+  width: 100%;
+  .header{
+    text-align: center;
+    h1{
+      color: #232323;
+    }
+    a{
+      text-decoration: none;
+      color: #232323;
+      font-size: 1.3rem;
+    }
+    input[type=text],input[type=submit]{
+        color: #800000;
+        font-size: 1.5rem;
+      border: 2px solid #800000;
+      margin-top: 2rem;
+    }  
+    input[type=submit]{
+      color: #800000;
+      background-color: #fff;
+        font-weight: 400;
+        letter-spacing: 2px;
+        font-size: 1.4rem;
+    }
+  }
+}
+
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+  a{
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    color: #800000;
+  }
+  ul{
+      background-color: #fff;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 3px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+}
